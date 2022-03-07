@@ -1,0 +1,17 @@
+body {
+  padding: 20px;
+  background-color: whitesmoke;
+}
+
+input {
+  width: 100%;
+}
+
+.img-grid{
+  height: 180px;
+}
+
+.img-my-title{
+  font-size: 14px;
+  font-weight: 600;
+}
