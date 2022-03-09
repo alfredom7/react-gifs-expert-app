@@ -21,8 +21,8 @@ export const AddCategory = ({ setCategories }) => {
 
     return (
         <form onSubmit={ handleSubmit }>
-            <p>{ inputValue }</p>
-            <div class="input-group mb-3">
+            {/*<p>{ inputValue }</p>*/}
+            <div class="input-group my-3">
             <input 
                 type="text" 
                 value={ inputValue } 

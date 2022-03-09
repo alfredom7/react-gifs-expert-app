@@ -15,3 +15,27 @@ input {
   font-size: 14px;
   font-weight: 600;
 }
+
+.myicon{
+  margin: auto;
+}
+
+.myicon i{
+  font-size: 45px;
+  color: #157347;
+}
+
+.mytitle{
+  font-size: 30px;
+  font-weight: 700;
+}
+.mysubtitle{
+  font-size: 14px;
+  font-weight: 500;
+  text-transform: uppercase;
+}
+
+.mycard:hover{
+  animation: pulse; /* referring directly to the animation's @keyframe declaration */
+  animation-duration: 0.4s; /* don't forget to set a duration! */
+}
