@@ -1,0 +1,30 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Pruebas en el <AddCategory/> Deberia tomar una snapshot del componente 1`] = `
+<form
+  onSubmit={[Function]}
+>
+  <p />
+  <div
+    class="input-group mb-3"
+  >
+    <input
+      aria-describedby="button-addon2"
+      aria-label="Write for search..."
+      className="form-control"
+      onChange={[Function]}
+      placeholder="Write for search..."
+      type="text"
+      value=""
+    />
+    <button
+      className="btn btn-success"
+      id="button-addon2"
+      onClick={[Function]}
+      type="button"
+    >
+      Search
+    </button>
+  </div>
+</form>
+`;

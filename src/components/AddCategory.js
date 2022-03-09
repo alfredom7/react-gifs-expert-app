@@ -21,8 +21,17 @@ export const AddCategory = ({ setCategories }) => {
 
     return (
         <form onSubmit={ handleSubmit }>
+            <p>{ inputValue }</p>
             <div class="input-group mb-3">
-            <input type="text" value={ inputValue } onChange={ handleInputChange } className="form-control" placeholder="Write for search..." aria-label="Write for search...e" aria-describedby="button-addon2"/>
+            <input 
+                type="text" 
+                value={ inputValue } 
+                onChange={ handleInputChange } 
+                className="form-control" 
+                placeholder="Write for search..." 
+                aria-label="Write for search..." 
+                aria-describedby="button-addon2"
+            />
             <button onClick={ handleSubmit } className="btn btn-success" type="button" id="button-addon2">Search</button>
             </div>
         </form>
