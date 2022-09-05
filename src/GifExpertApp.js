@@ -10,18 +10,18 @@ export const GifExpertApp = ({ defaultCategories = ['vegeta'] }) => {
     return (
         <>
         <div className='container'>
-            <div className='row'>
-                <div className='col-1 col-xs-12 col-sm-3 col-md-1 myicon'>
-                    <i class="far fa-images"></i>    
+            <div className='d-flex'>
+                <div className='myicon'>
+                    <i class="fa-solid fa-dragon"></i>
                 </div>
-                <div className='col-11 col-xs-12 col-sm-9 col-md-11'>
-                    <div className='mytitle'>GifExpertApp</div>
-                    <div className='mysubtitle'>Created By: Alfredo Medina with React</div>
+                <div className=''>
+                    <div className='mytitle'>Alfredo Gifs App</div>
+                    <code className='mysubtitle'>Created By: Alfredo Medina with React</code>
                 </div>
             </div>
 
             <AddCategory setCategories={ setCategories } />
-            <hr />
+            
             {
                 categories.map( category  => (
                     <GifGrid 

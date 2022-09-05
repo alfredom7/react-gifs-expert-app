@@ -17,25 +17,91 @@ input {
 }
 
 .myicon{
-  margin: auto;
+  margin-right: 15px;
 }
 
 .myicon i{
-  font-size: 45px;
-  color: #157347;
+  font-size: 38px;
+  color: #e33f00 !important;
+  line-height: 64px;
 }
 
 .mytitle{
-  font-size: 30px;
+  font-size: 24px;
   font-weight: 700;
 }
 .mysubtitle{
   font-size: 14px;
   font-weight: 500;
   text-transform: uppercase;
+  color: #7a7a7a;
 }
 
 .mycard:hover{
   animation: pulse; /* referring directly to the animation's @keyframe declaration */
   animation-duration: 0.4s; /* don't forget to set a duration! */
+}
+
+.btnsearch{
+  background-color: #e33f00 !important;
+  font-weight: 600;
+  border: none;
+  width: 130px;
+  border-radius: 0px 30px 30px 0px;
+}
+.btnsearch:hover{
+  background-color: #bd3400 !important;
+}
+.inputsearch{
+  border-radius: 30px;
+}
+
+.divsearch{
+  height: 55px;
+  padding: 0px 100px;
+}
+
+@media(max-width: 600px){
+  .divsearch{
+    padding: 0px;
+  }
+}
+
+.btncopy{
+  height: 50px;
+  line-height: 40px;
+  width: 140px;
+  background-color: #e33f00 !important;
+  font-weight: 600;
+  border: none;
+  border-radius: 30px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+.btncopy:hover{
+  background-color: #bd3400 !important;
+}
+
+.btncopied{
+  height: 50px;
+  line-height: 40px;
+  width: 140px;
+  border: 1px #e33f00 solid !important;
+  background-color: transparent !important;
+  color: #e33f00 !important;
+  font-weight: 600;
+  border: none;
+  border-radius: 30px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.btncopied:hover{
+  color: #bd3400 !important;
+  border: 1px #bd3400 solid !important;
+}
+
+.resultsfor{
+  font-size: 19px;
+  margin-bottom: 20px;
 }

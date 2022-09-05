@@ -22,17 +22,19 @@ export const AddCategory = ({ setCategories }) => {
     return (
         <form onSubmit={ handleSubmit }>
             {/*<p>{ inputValue }</p>*/}
-            <div class="input-group my-3">
-            <input 
-                type="text" 
-                value={ inputValue } 
-                onChange={ handleInputChange } 
-                className="form-control" 
-                placeholder="Write for search..." 
-                aria-label="Write for search..." 
-                aria-describedby="button-addon2"
-            />
-            <button onClick={ handleSubmit } className="btn btn-success" type="button" id="button-addon2">Search</button>
+            <div class="input-group my-4 divsearch">
+                <input 
+                    type="text" 
+                    value={ inputValue } 
+                    onChange={ handleInputChange } 
+                    className="form-control inputsearch" 
+                    placeholder="Write for search..." 
+                    aria-label="Write for search..." 
+                    aria-describedby="button-addon2"
+                />
+                <button onClick={ handleSubmit } className="btn btn-success btnsearch" type="button" id="button-addon2">
+                <i class="fa-solid fa-magnifying-glass"></i> Search
+                </button>
             </div>
         </form>
     )

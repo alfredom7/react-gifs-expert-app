@@ -9,7 +9,7 @@ export const GifGrid = ({ category }) => {
 
     return (
         <>
-            <h6 className="animate__animated animate__fadeIn pb-2">Results for: { category } </h6>
+            <h6 className="animate__animated animate__fadeIn pb-2 resultsfor">Results for: { category } </h6>
 
             { loading && <p className="animate__animated animate__flash">Loading</p> }
 
